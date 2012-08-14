@@ -1,0 +1,23 @@
+{
+  "name": "socket-agent",
+  "version": "0.0.0",
+  "description": "Socket pool interface similar to http.Agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/node-socket-agent.git"
+  },
+  "keywords": [
+    "socket",
+    "agent",
+    "pool",
+    "connection",
+    "limiter",
+    "thing"
+  ],
+  "author": "Carlos Rodriguez",
+  "license": "MIT"
+}
