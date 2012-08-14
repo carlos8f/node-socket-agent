@@ -34,7 +34,7 @@ function Agent(options) {
   self.createConnection = net.createConnection;
 }
 util.inherits(Agent, EventEmitter);
-exports.Agent = Agent;
+module.exports = Agent;
 
 Agent.defaultMaxSockets = 5;
 
